@@ -15,3 +15,8 @@ fetch("https://api.example.com/orden", {
 .then(response => response.json())
 .then(data => console.log(data))
 .catch(error => console.error("Error:", error));
+
+const frutas = {
+    nombre: "manzana",
+    color: "rojo"
+}
